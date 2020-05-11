@@ -1,0 +1,111 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    padding: 10px;
+    background: #222;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    list-style-type: none;
+    
+}
+nav .logo{
+    color:white;
+    font-family: cursive;
+    font-size: larger;
+}
+
+nav .links{
+    margin-left: auto;
+    margin-right: 20px;
+}
+nav ul li{
+    margin-left:auto;
+    display: inline-block;
+}
+nav ul li a{
+    color: whitesmoke;
+    transition: all 0.5 ease;
+    text-decoration: none;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav ul li a:hover{
+    color: white;
+    background: brown;
+}
+
+nav ul li button{
+    outline: none;
+    padding: 5px;
+    border: none;
+    background: cadetblue;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5 ease;
+}
+nav ul li button:hover{
+    background:darkcyan;
+    color: white;
+    
+    
+}
+
+#header{
+    margin: 10px auto;
+    width: 80%;
+    padding: 50px;
+    box-shadow: 0 0 10px rgba(0,0, 0, 0.3);
+}
+#header h2{
+    margin-bottom: 50px;
+}
+#header h2,p{
+    text-align: center;
+}
+
+#main-content{
+    width: 80%;
+    margin: 0 auto;
+}
+#main-content ul{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#main-content ul li:nth-child(1) ,li:nth-child(2) {
+    list-style: none;
+    box-shadow: 0 0 10px rgba(0,0, 0, 0.3);
+    margin-right: 5px;
+    padding: 10px;
+}
+#main-content ul li:nth-child(3) {
+    list-style: none;
+    box-shadow: 0 0 10px rgba(0,0, 0, 0.3);
+    
+    padding: 10px;
+}
+#main-content ul li h3{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+footer{
+    width: 100%;
+    padding: 10px;
+    background: #444;
+    position: absolute;
+    bottom: 0;
+}
+
+footer h2{
+    color: white;
+    text-align: center;
+    font-family: cursive;
+}
